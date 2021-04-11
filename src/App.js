@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// react bootstrap
+import { Container, Row } from "react-bootstrap";
+// components
+import Todo from "./components/todo";
+import Lists from "./components/list";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Todo App With Context Api</p>
       </header>
+      <Row>
+        <Container className="mt-3">
+          <Todo />
+          <Lists />
+        </Container>
+      </Row>
     </div>
   );
 }
