@@ -36,3 +36,182 @@
     transform: rotate(360deg);
   }
 }
+
+#accordion{
+   
+  /* width:20%; */
+  height: 800px;
+  /* background-color: #f4f4f4; */
+  background-color:#6839da;
+  padding-top:0px;
+}
+
+.tab{
+  padding:10px;
+  /* background-color: #f4f4f4; */
+  /* background-color:#6839da; */
+}
+.title{
+  padding:10px;
+  /* background-color: #f4f4f4; */
+  background-color:#6839da;
+  color:white
+}
+.tab .title{
+  padding:10px;
+  /* background-color: #6839da; */
+  
+}
+
+.accDiv {
+  padding-bottom: 75.5%;
+  overflow-y: auto;
+  margin-top: 26%;
+} 
+
+
+.content{
+  padding:10px;
+  /* border: 0.8px; */
+  /* border-style: solid; */
+  /* border-color: #1d1010; */
+  border-radius: 12px;
+
+ 
+ 
+}
+@keyframes show {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.expand{
+  /* background-color:#a68ce4; */
+  border-radius: 12px;
+  /* width: 700%; */
+}
+.flex{
+  display: flex;
+}
+
+.title.flex {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.show{
+  background: transparent;
+  background-color: transparent;
+  display: block;
+  
+}
+
+.hide{
+  display: none;
+}
+
+.jc-btwn{
+  justify-content: space-between;
+  background: transparent;
+  background-color: transparent;
+
+}
+
+.cont-btn{
+  height:auto;
+  margin-bottom:5%;
+  background: transparent;
+  background-color: transparent;
+}
+
+.cont-btn btn btn-secondary{
+  background: transparent;
+  background-color: transparent;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.cont-btn btn btn-secondary:focus{
+  box-shadow: none;
+  background-color: none;
+  border-color: none;
+  border:none;
+  border-radius:0px;
+}
+.cont-btn btn btn-secondary:active{
+  box-shadow: none;
+  background-color: none;
+  border-color: none;
+  border:none;
+  border-radius:0px;
+}
+.cont-btn :focus{
+  box-shadow: none;
+  background-color: none;
+  border-color: none;
+  border:none;
+  border-radius:0px;
+}
+
+.leftPanelSubMenu{
+  box-shadow: none; 
+  width: -webkit-fill-available;
+  background: transparent !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  text-align: inherit !important; 
+  margin-left: 12%;
+  font-weight: 500 !important;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+.leftPanelSubMenu:hover, .leftPanelSubMenu:focus{
+  box-shadow: none !important; 
+}
+
+.cont-btn{
+  height:auto;
+  margin-bottom:5%;
+  background: transparent;
+  background-color: transparent;
+}
+
+.cont-btn btn btn-secondary{
+  background: transparent;
+  background-color: transparent;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.cont-btn btn btn-secondary:focus{
+  box-shadow: none;
+  background-color: none;
+  border-color: none;
+  border:none;
+  border-radius:0px;
+}
+.cont-btn btn btn-secondary:active{
+  box-shadow: none;
+  background-color: none;
+  border-color: none;
+  border:none;
+  border-radius:0px;
+}
+.cont-btn :focus{
+  box-shadow: none;
+  background-color: none;
+  border-color: none;
+  border:none;
+  border-radius:0px;
+}

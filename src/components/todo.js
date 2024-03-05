@@ -24,7 +24,7 @@ const Todo = () => {
     }
   };
   const trimValue = () => {
-    if (!task && task !== "") {
+    if (task && task !== "") {
       const val = task.trim();
       SetTask(val);
     }

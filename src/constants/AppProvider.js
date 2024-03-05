@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from "uuid";
 // initial state
 const initialState = { list: [] };
 export const WalkThroughContext = React.createContext(initialState);
-export const WalkThroughDispatch = React.createContext(null);
+export const WalkThroughDispatch = React.createContext();
 
 export const walkThroughReducer = (state, action) => {
   switch (action.type) {
